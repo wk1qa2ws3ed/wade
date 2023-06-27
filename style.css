@@ -1,0 +1,44 @@
+:root {
+  /*primary colors*/
+  --clr-primary-1: hsl(184, 94%, 71%);
+  --clr-primary-2: hsl(184, 34%, 20%);
+  /*secondary color*/
+  --clr-primary-3: hsl(185, 57%, 50%);
+  --clr-primary-4: hsl(184, 65%, 59%);
+  /*lighter shades of primary color*/
+  --clr-primary-6: hsl(185, 57%, 50%);
+  --clr-primary-7: hsl(184, 65%, 59%);
+  --clr-primary-8: hsl(184, 80%, 74%);
+  --clr-primary-9: hsl(185, 94%, 87%);
+  --clt-primary-10: hsl(186, 100%, 94%);
+  /*darkest grey used for heading*/
+  --clr-primary-11: hsl(209, 61%, 16%);
+  --clr-primary-12: hsl(211, 39%, 23%);
+  --clr-primary-13: hsl(209, 34%, 30%);
+  --clr-primary-14: hsl(209, 28%, 39%);
+  /*grey used for paragraphs*/
+  --clr-primary-15: hsl(211, 39%, 23%);
+  --clr-primary-16: hsl(209, 34%, 30%);
+  --clr-primary-17: hsl(209, 36%, 29%);
+  --ff-primary-18: "vedana";
+}
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  font-family: var(--ff-primary-18);
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+  display: block;
+}
